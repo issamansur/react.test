@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Gretting from './Greeting';
-import CurrentDateTime from './CurrentDateTime';
+import Gretting from './lab1/Greeting';
+import CurrentDateTime from './lab1/CurrentDateTime';
 
 function App() {
   return (
