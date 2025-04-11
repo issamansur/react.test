@@ -27,6 +27,8 @@ import Profile from './lab5/Profile';
 import PrivateRoute from './lab5/PrivateRoute';
 // lab6
 import JqueryExample from './lab6/JqueryExample';
+// lab7
+import EventHandlers from './lab7/EventHandlers';
 
 function App() {
   return (
@@ -64,6 +66,7 @@ function App() {
             <DisplayValue />
             <UpdateValue />
             <JqueryExample />
+            <EventHandlers />
           </header>
         </div>
       </Router>
