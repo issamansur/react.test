@@ -1,13 +1,4 @@
 import './App.css';
-import Gretting from './lab1/Greeting';
-import CurrentDateTime from './lab1/CurrentDateTime';
-import Counter from './lab2/Counter';
-import TextInput from './lab2/TextInput';
-import DataFetcher from './lab3/DataFetcher';
-import UserList from './lab3/UserList';
-import { MyProvider } from './lab4/MyContext';
-import DisplayValue from './lab4/DisplayValue';
-import UpdateValue from './lab4/UpdateValue';
 
 import {
   BrowserRouter as Router,
@@ -16,10 +7,26 @@ import {
   Routes
 } from 'react-router-dom';
 
+// lab1
+import Gretting from './lab1/Greeting';
+import CurrentDateTime from './lab1/CurrentDateTime';
+// lab2
+import Counter from './lab2/Counter';
+import TextInput from './lab2/TextInput';
+// lab3
+import DataFetcher from './lab3/DataFetcher';
+import UserList from './lab3/UserList';
+// lab4
+import { MyProvider } from './lab4/MyContext';
+import DisplayValue from './lab4/DisplayValue';
+import UpdateValue from './lab4/UpdateValue';
+// lab5
 import Home from './lab5/Home';
 import About from './lab5/About';
 import Profile from './lab5/Profile';
 import PrivateRoute from './lab5/PrivateRoute';
+// lab6
+import JqueryExample from './lab6/JqueryExample';
 
 function App() {
   return (
@@ -56,6 +63,7 @@ function App() {
             <UserList />
             <DisplayValue />
             <UpdateValue />
+            <JqueryExample />
           </header>
         </div>
       </Router>
