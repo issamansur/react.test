@@ -33,6 +33,8 @@ import EventHandlers from './lab7/EventHandlers';
 import Animations from './lab8/Animations';
 // lab9
 import AjaxExample from './lab9/AjaxExample';
+// lab10
+import LodashExample from './lab10/LodashExample';
 
 
 function App() {
@@ -74,6 +76,7 @@ function App() {
             <EventHandlers />
             <Animations />
             <AjaxExample />
+            <LodashExample />
           </header>
         </div>
       </Router>
