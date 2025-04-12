@@ -45,7 +45,11 @@ import D3Example from './lab13/D3Example';
 import ScalesAndAxes from './lab14/ScalesAndAxes';
 // lab15
 import InteractiveChart from './lab15/InteractiveChart';
+// lab16
 import BigDataVisualization from './lab16/BigDataVisualization';
+// lab17
+import AxiosExample from './lab17/AxiosExample';
+import AxiosPostExample from './lab17/AxiosPostExample';
 
 
 function App() {
@@ -94,6 +98,8 @@ function App() {
             <ScalesAndAxes />
             <InteractiveChart />
             <BigDataVisualization />
+            <AxiosExample />
+            <AxiosPostExample />
           </header>
         </div>
       </Router>
