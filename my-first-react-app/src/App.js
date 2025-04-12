@@ -41,7 +41,10 @@ import LodashObjectsCollections from './lab11/LodashObjectsCollections';
 import LodashUtilities from './lab12/LodashUtilities';
 // lab13
 import D3Example from './lab13/D3Example';
+// lab14
 import ScalesAndAxes from './lab14/ScalesAndAxes';
+// lab15
+import InteractiveChart from './lab15/InteractiveChart';
 
 
 function App() {
@@ -88,6 +91,7 @@ function App() {
             <LodashUtilities />
             <D3Example />
             <ScalesAndAxes />
+            <InteractiveChart />
           </header>
         </div>
       </Router>
