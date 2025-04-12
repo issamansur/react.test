@@ -45,6 +45,7 @@ import D3Example from './lab13/D3Example';
 import ScalesAndAxes from './lab14/ScalesAndAxes';
 // lab15
 import InteractiveChart from './lab15/InteractiveChart';
+import BigDataVisualization from './lab16/BigDataVisualization';
 
 
 function App() {
@@ -92,6 +93,7 @@ function App() {
             <D3Example />
             <ScalesAndAxes />
             <InteractiveChart />
+            <BigDataVisualization />
           </header>
         </div>
       </Router>
