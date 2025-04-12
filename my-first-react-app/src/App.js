@@ -29,7 +29,11 @@ import PrivateRoute from './lab5/PrivateRoute';
 import JqueryExample from './lab6/JqueryExample';
 // lab7
 import EventHandlers from './lab7/EventHandlers';
+// lab8
 import Animations from './lab8/Animations';
+// lab9
+import AjaxExample from './lab9/AjaxExample';
+
 
 function App() {
   return (
@@ -69,6 +73,7 @@ function App() {
             <JqueryExample />
             <EventHandlers />
             <Animations />
+            <AjaxExample />
           </header>
         </div>
       </Router>
