@@ -37,6 +37,7 @@ import AjaxExample from './lab9/AjaxExample';
 import LodashExample from './lab10/LodashExample';
 // lab11
 import LodashObjectsCollections from './lab11/LodashObjectsCollections';
+import LodashUtilities from './lab12/LodashUtilities';
 
 
 function App() {
@@ -80,6 +81,7 @@ function App() {
             <AjaxExample />
             <LodashExample />
             <LodashObjectsCollections />
+            <LodashUtilities />
           </header>
         </div>
       </Router>
