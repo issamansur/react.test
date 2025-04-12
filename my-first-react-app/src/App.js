@@ -37,7 +37,10 @@ import AjaxExample from './lab9/AjaxExample';
 import LodashExample from './lab10/LodashExample';
 // lab11
 import LodashObjectsCollections from './lab11/LodashObjectsCollections';
+// lab12
 import LodashUtilities from './lab12/LodashUtilities';
+// lab13
+import D3Example from './lab13/D3Example';
 
 
 function App() {
@@ -82,6 +85,7 @@ function App() {
             <LodashExample />
             <LodashObjectsCollections />
             <LodashUtilities />
+            <D3Example />
           </header>
         </div>
       </Router>
