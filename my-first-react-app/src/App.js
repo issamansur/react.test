@@ -55,6 +55,8 @@ import FetchDataWithAxios from './lab18/FetchDataWithAxios';
 import UpdateDataWithAxios from './lab18/UpdateDataWithAxios';
 // lab19
 import AxiosWithInterceptors from './lab19/AxiosWithInterceptors';
+// lab20
+import JqueryInReact from './lab20/JqueryInReact';
 
 
 function App() {
@@ -108,6 +110,7 @@ function App() {
             <FetchDataWithAxios />
             <UpdateDataWithAxios />
             <AxiosWithInterceptors />
+            <JqueryInReact />
           </header>
         </div>
       </Router>
