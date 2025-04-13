@@ -53,6 +53,8 @@ import AxiosPostExample from './lab17/AxiosPostExample';
 // lab18
 import FetchDataWithAxios from './lab18/FetchDataWithAxios';
 import UpdateDataWithAxios from './lab18/UpdateDataWithAxios';
+// lab19
+import AxiosWithInterceptors from './lab19/AxiosWithInterceptors';
 
 
 function App() {
@@ -105,6 +107,7 @@ function App() {
             <AxiosPostExample />
             <FetchDataWithAxios />
             <UpdateDataWithAxios />
+            <AxiosWithInterceptors />
           </header>
         </div>
       </Router>
