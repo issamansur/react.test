@@ -57,6 +57,8 @@ import LodashInReact from "./lab21/LodashInReact";
 // lab22
 import DataVisualization from "./lab22/DataVisualization";
 import LineChart from "./lab22/LineChart";
+// lab23
+import FetchDataAndVisualize from "./lab23/FetchDataAndVisualize";
 
 function App() {
 	return (
@@ -124,6 +126,7 @@ function App() {
 					<LodashInReact />
 					<DataVisualization />
 					<LineChart />
+					<FetchDataAndVisualize />
 				</div>
 			</Router>
 		</MyProvider>
