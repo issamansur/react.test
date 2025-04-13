@@ -56,6 +56,7 @@ import JqueryInReact from "./lab20/JqueryInReact";
 import LodashInReact from "./lab21/LodashInReact";
 // lab22
 import DataVisualization from "./lab22/DataVisualization";
+import LineChart from "./lab22/LineChart";
 
 function App() {
 	return (
@@ -122,6 +123,7 @@ function App() {
 					<JqueryInReact />
 					<LodashInReact />
 					<DataVisualization />
+					<LineChart />
 				</div>
 			</Router>
 		</MyProvider>
