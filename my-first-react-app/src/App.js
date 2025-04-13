@@ -50,6 +50,9 @@ import BigDataVisualization from './lab16/BigDataVisualization';
 // lab17
 import AxiosExample from './lab17/AxiosExample';
 import AxiosPostExample from './lab17/AxiosPostExample';
+// lab18
+import FetchDataWithAxios from './lab18/FetchDataWithAxios';
+import UpdateDataWithAxios from './lab18/UpdateDataWithAxios';
 
 
 function App() {
@@ -100,6 +103,8 @@ function App() {
             <BigDataVisualization />
             <AxiosExample />
             <AxiosPostExample />
+            <FetchDataWithAxios />
+            <UpdateDataWithAxios />
           </header>
         </div>
       </Router>
