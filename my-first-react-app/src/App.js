@@ -54,6 +54,8 @@ import AxiosWithInterceptors from "./lab19/AxiosWithInterceptors";
 import JqueryInReact from "./lab20/JqueryInReact";
 // lab21
 import LodashInReact from "./lab21/LodashInReact";
+// lab22
+import DataVisualization from "./lab22/DataVisualization";
 
 function App() {
 	return (
@@ -118,6 +120,8 @@ function App() {
 					<UpdateDataWithAxios />
 					<AxiosWithInterceptors />
 					<JqueryInReact />
+					<LodashInReact />
+					<DataVisualization />
 				</div>
 			</Router>
 		</MyProvider>
