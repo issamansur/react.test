@@ -59,6 +59,9 @@ import DataVisualization from "./lab22/DataVisualization";
 import LineChart from "./lab22/LineChart";
 // lab23
 import FetchDataAndVisualize from "./lab23/FetchDataAndVisualize";
+// lab24
+import Dashboard from "./lab24/Dashboard";
+import ExtendedDashboard from "./lab24/ExtendedDashboard";
 
 function App() {
 	return (
@@ -127,6 +130,8 @@ function App() {
 					<DataVisualization />
 					<LineChart />
 					<FetchDataAndVisualize />
+					<Dashboard />
+					<ExtendedDashboard />
 				</div>
 			</Router>
 		</MyProvider>
